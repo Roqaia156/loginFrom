@@ -1,0 +1,64 @@
+<DOCTYPE html!>
+    <html>
+        <head>
+            <style>
+                body { 
+                background-image: url('https://5zznly.com/p/2021/08/tyL1r_Robot_(3).gif');
+                background-repeat: no-repeat ;
+                background-attachment : fixed;
+                background-size:cover; } 
+                h1 { font-family : verdana ; 
+                color:whitesmoke ; 
+                font-size: 340%;
+                text-align: center; }
+                button{
+                     height:30px ;
+                    width:130px;
+                    top:10% ;
+                    left:50% ;
+                    }
+               .mystyle {
+                text-align: center;
+               }
+            
+                </style>
+       </head>
+
+    <body>
+     <h1>Robot Base Control </h1>
+     <br>
+     <br>
+     
+     <div class="mystyle">
+     <form action="/ test.php"  method="POST" >
+     <button name="forward" type="submit"  value="forward"> Forward </button>  
+        <br>
+        <br>
+     <button name="left" type="submit" value="left"> Left </button>      
+     <button name="stop" type="submit" value="stop" >
+                       Stop </button> 
+     <button name="right" value="right" type="submit" >
+                        Right </button>
+                        <br>
+                        <br>
+     <button name="backward" value="backward" type="submit">
+                        Backward </button>
+                   
+                </form>
+
+                </div> 
+                <script>
+                    window.watsonAssistantChatOptions = {
+                        integrationID: "4d05d5d8-c8c2-4d15-a534-164a8b4c6ed9", // The ID of this integration.
+                        region: "eu-gb", // The region your integration is hosted in.
+                        serviceInstanceID: "a1bbbd04-3fd2-468d-a777-7e01fd4cad26", // The ID of your service instance.
+                        onLoad: function(instance) { instance.render(); }
+                      };
+                    setTimeout(function(){
+                      const t=document.createElement('script');
+                      t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+                      document.head.appendChild(t);
+                    });
+                  </script>
+    </body>
+        </html>

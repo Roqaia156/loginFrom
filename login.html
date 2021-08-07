@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+     body { 
+                background-image: url('https://5zznly.com/p/2021/08/TId5B_Robot_(2).gif');
+                background-repeat: no-repeat ;
+                background-attachment : fixed;
+                background-size:cover; } 
+                h2 { font-family : verdana ; 
+                color:whitesmoke ; 
+                font-size: 340%;
+                text-align: center; }
+                
+               .mystyle {
+                text-align: center;
+               }
+               .mystyle1 {
+                text-align: left;
+               }
+            
+               
+
+input[type=text], input[type=password] {
+  width: 30%;
+  padding: 11px 19px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #e43989b7;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+}
+
+
+
+
+
+
+
+  
+
+</style>
+</head>
+<body>
+
+<h2>Login Form</h2>
+
+<form action="index.html" vlue="content" method="post">
+  <div class="mystyle">
+    
+    <label for="sidd" style="color:rgba(247, 247, 247, 0.932);"><b>SIDD</b></label><br> 
+    <input type="text" placeholder="Enter SIDD" name="sidd" required>
+<br>
+
+    <label for="psw" style="color:rgba(247, 247, 247, 0.932);text-align: left;"><b>Password</b></label><br>
+    <input type="password" placeholder="Enter Password" name="psw" required><br>
+        
+    <button type="submit">Login</button>
+    <label>
+        
+    </div>
+  
+</form>
+<script>
+                    window.watsonAssistantChatOptions = {
+                        integrationID: "4d05d5d8-c8c2-4d15-a534-164a8b4c6ed9", // The ID of this integration.
+                        region: "eu-gb", // The region your integration is hosted in.
+                        serviceInstanceID: "a1bbbd04-3fd2-468d-a777-7e01fd4cad26", // The ID of your service instance.
+                        onLoad: function(instance) { instance.render(); }
+                      };
+                    setTimeout(function(){
+                      const t=document.createElement('script');
+                      t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+                      document.head.appendChild(t);
+                    });
+                  </script>
+
+</body>
+</html>
